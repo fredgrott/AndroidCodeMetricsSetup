@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='reportXMLtoHTML.xsl'?>
+<classycle title='Classycle Plugin' date='2012-01-25'>
+  <cycles>
+  </cycles>
+  <classes numberOfExternalClasses="3">
+    <class name="com.github.shareme.androidcodemetricssetup.R" sources="/home/fredgrott/git/GITHUB/AndroidCodeMetricsSetup/bin/classes" type="class" innerClass="false" size="4978" usedBy="0" usesInternal="0" usesExternal="1" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="com.github.shareme.androidcodemetricssetup.AndroidCodeMetricsSetupActivity" sources="/home/fredgrott/git/GITHUB/AndroidCodeMetricsSetup/bin/classes" type="class" innerClass="false" size="1244" usedBy="0" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <classRef name="android.app.Activity" type="usesExternal"/>
+      <classRef name="android.os.Bundle" type="usesExternal"/>
+    </class>
+  </classes>
+  <packageCycles>
+  </packageCycles>
+  <packages>
+    <package name="com.github.shareme.androidcodemetricssetup" sources="/home/fredgrott/git/GITHUB/AndroidCodeMetricsSetup/bin/classes"  size="2" usedBy="0" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="android.app" type="usesExternal"/>
+      <packageRef name="android.os" type="usesExternal"/>
+    </package>
+  </packages>
+</classycle>
